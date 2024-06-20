@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+}
+
+#navbar a{
+    color: white;
+    transition: all .55s ease-in-out;
+    text-shadow: 0 0 10px #3cf;
+}
+
+#navbar a:hover{
+    color: #3cf;
+}
+
+.carousel-item{
+    max-height: 600px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h4{
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.carousel-caption p{
+    font-size: 500;
+}
+
+#btn{
+    background: #ffffff;
+    margin-top: 5px;
+    transition: .5s ease-in-out;
+}
+
+#btn:hover{
+    background: #3cf;
+}
+.nav-tabs{
+ max-width: 400px;
+}
+
+#shops h4{
+    color: white;
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    position: relative;
+    text-shadow: 0 0 5px white;
+}
+
+#shops h4::after{
+    content: '';
+    position: absolute;
+    left: 53%;
+    bottom: -9px;
+    width: 90px;
+    height: 3px;
+    background: #3cf;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+#shops-btn{
+    background: #3cf;
+    padding: 8px 25px;
+    border: none;
+    transition: .5s linear;
+}
+
+#shops-btn:hover{
+    border: 1px #3cf solid;
+    background: transparent;
+}
+#shops-btn-1{
+    background: transparent;
+    padding: 8px 25px;
+    border: 1px solid #3cf;
+    transition: .5s linear;
+}
+
+#shops-btn-1:hover{
+    background: #3cf;
+    border: none;
+}
+
+.fa-cart-shopping{
+    color: white;
+}
+
+.card-title h4{
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#about h4{
+    color: white;
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    position: relative;
+    text-shadow: 0 0 5px white;
+}
+
+#about h4::after{
+    content: '';
+    position: absolute;
+    left: 53%;
+    bottom: -9px;
+    width: 90px;
+    height: 3px;
+    background: #3cf;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+#about-section{
+    background: url("Aboutus section/pexels-pixabay-163774.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-text{
+    margin-left: 400px;
+    padding-top: 200px;
+}
+
+#about-text p{
+    max-height: 200px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 400px;
+
+}
+
+@media (min-width: 414px) {
+
+    #about-text{
+        margin-left: 10px;
+    }
+
+}
+
+#form{
+    padding: 10px;
+    margin: 10px;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+#contact-btn{
+    padding: 8px 25px;
+    background: #3cf;
+}
+
+
